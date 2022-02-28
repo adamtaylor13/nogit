@@ -1,6 +1,19 @@
 {
-  "name": "@adamtaylor/nogit",
+  "name": "@adamtaylor13/nogit",
   "version": "1.0.0",
   "main": "index.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamtaylor13/nogit.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/adamtaylor13/nogit/issues"
+  },
+  "homepage": "https://github.com/adamtaylor13/nogit#readme",
+  "description": ""
 }
