@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@lunchmoney/*":  ["src/lunchmoney/*"]
+        },
+        "rootDir": "./",
+        "outDir": "dist",
+        "module": "commonjs",
+        "target": "es6",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true
+    },
+    "ts-node": {
+        "files": true
+    },
+    "references": [
+        { "path": "./src/lunchmoney" }
+    ],
+    "include": ["src/**/*"]
+}
