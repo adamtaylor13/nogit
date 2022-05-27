@@ -16,7 +16,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@adamtaylor13"
   },
-  "author": "",
+  "author": "@adamtaylor13",
   "bugs": {
     "url": "https://github.com/adamtaylor13/nogit/issues"
   },
