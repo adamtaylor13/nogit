@@ -11,7 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamtaylor13/nogit.git"
+    "url": "git+ssh://github.com/adamtaylor13/nogit.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@adamtaylor13"
   },
   "author": "",
   "bugs": {
