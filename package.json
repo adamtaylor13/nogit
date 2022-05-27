@@ -9,12 +9,9 @@
     "build": "tsc -b ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://github.com/adamtaylor13/nogit.git"
-  },
+  "repository": "https://github.com/adamtaylor13/nogit",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@adamtaylor13"
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "@adamtaylor13",
   "bugs": {
