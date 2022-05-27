@@ -1,10 +1,12 @@
 {
   "name": "@adamtaylor13/nogit",
   "version": "1.0.1",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc -b ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,28 @@
     "url": "https://github.com/adamtaylor13/nogit/issues"
   },
   "homepage": "https://github.com/adamtaylor13/nogit#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "auto",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": false
+  }
+
 }
